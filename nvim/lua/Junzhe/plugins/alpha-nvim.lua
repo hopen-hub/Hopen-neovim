@@ -27,6 +27,9 @@ return {
             dashboard.button("x", "󰁯  > Restore Session For Current Directory", "<cmd>SessionRestore<CR>"),
             dashboard.button("q", " > Quit NVIM", "<cmd>qa<CR>"),
             dashboard.button("SPC s","💻 > split the screen", "<cmd>vsplit<CR>"),
+            dashboard.button("SPC h", "❔ > help", "<cmd>help<CR>"),
+            dashboard.button("SPC f", "🔴🟠🟡🟢🔵(When you are coding)"),
+            dashboard.button("SPC d1(d2,d3)", "summon an item"),
             dashboard.button("g","👍 > support me", "<cmd>e /data/data/com.termux/files/home/.config/nvim/support_me.txt<CR>"),
                   
         }
