@@ -22,6 +22,6 @@
 ## install 
 
 ```bash
-apt update && apt upgrade && apt install git wget neovim && git clone https://github.com/hopen-hub/Hopen-neovim.git && cd Hopen-neovim && bash install
+apt update && apt upgrade && apt install git wget neovim && git clone https://github.com/hopen-hub/Hopen-neovim.git && cd Hopen-neovim && bash install.sh
 ```
 # Enjoy It 😀
