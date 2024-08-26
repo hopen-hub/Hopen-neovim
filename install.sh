@@ -1,7 +1,7 @@
 apt update;
 apt upgrade;
-mv .config/nvim old-nvim;
-mv nvim .config/;
+mv ~/.config/nvim old-nvim;
+mv nvim ~/.config/;
 cd ~/.termux;
 wget https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf;
 
